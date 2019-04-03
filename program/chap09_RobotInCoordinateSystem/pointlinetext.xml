@@ -1,0 +1,114 @@
+<?RoboSim XML Configuration?>
+<config>
+    <bkgd_path>CHHOME</bkgd_path>
+    <bkgd_name>outdoors</bkgd_name>
+    <background>outdoors</background>
+    <version>2</version>
+</config>
+
+<graphics>
+    <text id="13" form="18" size="35">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="0" alpha="1"/>
+        <name>(15,9)</name>
+        <end x="0" y="0" z="0"/>
+        <position x="0.381001" y="0.2286" z="0.0635001"/>
+    </text>
+    <text id="12" form="18" size="35">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="0" alpha="1"/>
+        <name>(9,9)</name>
+        <end x="0" y="0" z="0"/>
+        <position x="0.2286" y="0.2286" z="0.0635001"/>
+    </text>
+    <text id="11" form="18" size="35">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="0" alpha="1"/>
+        <name>(3,9)</name>
+        <end x="0" y="0" z="0"/>
+        <position x="0.0762001" y="0.2286" z="0.0635001"/>
+    </text>
+    <text id="10" form="18" size="35">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="0" alpha="1"/>
+        <name>(-3,9)</name>
+        <end x="0" y="0" z="0"/>
+        <position x="-0.0762001" y="0.2286" z="0.0635001"/>
+    </text>
+    <text id="9" form="18" size="35">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="0" alpha="1"/>
+        <name>(-9,9)</name>
+        <end x="0" y="0" z="0"/>
+        <position x="-0.2286" y="0.2286" z="0.0635001"/>
+    </text>
+    <line id="8" form="11" width="4">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0.501961" g="0" b="0.501961" alpha="1"/>
+        <end x="0.381001" y="0.457201" z="0"/>
+        <position x="0.2286" y="0.457201" z="0"/>
+    </line>
+    <line id="7" form="11" width="3">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="1" alpha="1"/>
+        <end x="0.2286" y="0.457201" z="0"/>
+        <position x="0.0762001" y="0.457201" z="0"/>
+    </line>
+    <line id="6" form="11" width="2">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="1" b="0" alpha="1"/>
+        <end x="0.0762001" y="0.457201" z="0"/>
+        <position x="-0.0762001" y="0.457201" z="0"/>
+    </line>
+    <line id="5" form="11" width="1">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="1" g="0" b="0" alpha="1"/>
+        <end x="-0.0762001" y="0.457201" z="0"/>
+        <position x="-0.2286" y="0.457201" z="0"/>
+    </line>
+    <dot id="4" form="8" radius="5">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="1" b="1" alpha="1"/>
+        <end x="0" y="0" z="0"/>
+        <position x="0.381001" y="0.2286" z="0"/>
+    </dot>
+    <dot id="3" form="8" radius="1">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="1" g="0" b="0" alpha="1"/>
+        <end x="0" y="0" z="0"/>
+        <position x="-0.2286" y="0.2286" z="0"/>
+    </dot>
+    <dot id="2" form="8" radius="2">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="1" b="0" alpha="1"/>
+        <end x="0" y="0" z="0"/>
+        <position x="-0.0762001" y="0.2286" z="0"/>
+    </dot>
+    <dot id="1" form="8" radius="3">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="1" alpha="1"/>
+        <end x="0" y="0" z="0"/>
+        <position x="0.0762001" y="0.2286" z="0"/>
+    </dot>
+    <dot id="0" form="8" radius="4">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0.501961" g="0" b="0.501961" alpha="1"/>
+        <end x="0" y="0" z="0"/>
+        <position x="0.2286" y="0.2286" z="0"/>
+    </dot>
+    <grid tics="1" hash="12" minx="-48" maxx="48" miny="-48" maxy="48" enabled="1"/>
+    <trace>1</trace>
+</graphics>
+
+<ground/>
+
+<sim>
+    <nxt form="5" id="0">
+        <wheels left="2" right="2" caster="0"/>
+        <name></name>
+        <led r="0" g="1" b="0" alpha="1"/>
+        <joint w1="0" w2="0"/>
+        <rotation x="0" y="0" z="0" w="1"/>
+        <position x="0" y="0" z="0"/>
+    </nxt>
+</sim>

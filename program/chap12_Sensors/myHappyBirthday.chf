@@ -1,0 +1,29 @@
+/* File: myHappyBirthday.chf
+   The function file myHappyBirthDay.chf for melody myHappyBirthday */
+#include <linkbot.h>
+note_t myHappyBirthday(int i) {
+    int len;
+    note_t note;
+    note_t song[] = {{NOTE_C4, 8}, {NOTE_C4, 8},
+        {NOTE_D4, 4}, {NOTE_C4, 4}, {NOTE_F4, 4},
+        {NOTE_E4, 4}, {0, 4}, {NOTE_C4, 8},
+        {NOTE_C4, 8}, {NOTE_D4, 4}, {NOTE_C4, 4},
+        {NOTE_G4, 4}, {NOTE_F4, 4}, {0, 4},
+        {NOTE_C4, 8}, {NOTE_C4, 8}, {NOTE_C5, 4},
+        {NOTE_A4, 4}, {NOTE_F4, 8}, {NOTE_F4, 8},
+        {NOTE_E4, 4}, {NOTE_D4, 4}, {0, 4},
+        {NOTE_AS4, 8}, {NOTE_AS4, 8}, {NOTE_A4, 4},
+        {NOTE_F4, 4}, {NOTE_G4, 4}, {NOTE_F4, 4}
+    };
+
+    len = sizeof(song) / sizeof(note_t);
+    if (i < len) {
+        note.frequency = song[i].frequency;
+        note.duration = song[i].duration;
+    } else {
+        note.frequency = -1;
+        note.duration = -1;
+    }
+
+    return note;
+}

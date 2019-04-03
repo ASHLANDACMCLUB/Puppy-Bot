@@ -1,0 +1,15 @@
+/*[
+ * Copyright (c) 2015-2017 by Harry Cheng, All Rights Reserved 
+ *
+ * Permission to use and copy this software is hereby granted, 
+ * provided that the above copyright notice appear 
+ * in all copies and that both that copyright notice and 
+ * this permission notice appear in supporting documentation.
+ *
+ * No permission for redistribution of this software in source code 
+ * is granted.
+ *
+ * This software is provided "as is" without express or implied warranty
+ * to the extent permitted by applicable law.
+]*/
+

@@ -1,0 +1,131 @@
+<?RoboSim XML Configuration?>
+<config>
+    <bkgd_path>CHHOME</bkgd_path>
+    <bkgd_name>outdoors</bkgd_name>
+    <background>outdoors</background>
+    <version>2</version>
+</config>
+
+<graphics>
+    <line id="16" form="11" width="2">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="1" alpha="1"/>
+        <end x="1.2192" y="0.0347981" z="0"/>
+        <position x="0.869952" y="0.18034" z="0"/>
+    </line>
+    <line id="15" form="11" width="2">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="1" alpha="1"/>
+        <end x="0.869952" y="0.18034" z="0"/>
+        <position x="0.616205" y="0.602489" z="0"/>
+    </line>
+    <line id="14" form="11" width="2">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="1" alpha="1"/>
+        <end x="0.616205" y="0.601981" z="0"/>
+        <position x="0.361443" y="0.0817882" z="0"/>
+    </line>
+    <line id="13" form="11" width="2">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="1" alpha="1"/>
+        <end x="0.361189" y="0.0817882" z="0"/>
+        <position x="0.18288" y="0" z="0"/>
+    </line>
+    <line id="12" form="11" width="2">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="1" alpha="1"/>
+        <end x="1.2192" y="0.219202" z="0"/>
+        <position x="0.958852" y="0.327661" z="0"/>
+    </line>
+    <line id="11" form="11" width="2">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="1" alpha="1"/>
+        <end x="0.958852" y="0.327661" z="0"/>
+        <position x="0.602743" y="0.92126" z="0"/>
+    </line>
+    <line id="10" form="11" width="2">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="1" alpha="1"/>
+        <end x="0.602743" y="0.92126" z="0"/>
+        <position x="0.248158" y="0.197612" z="0"/>
+    </line>
+    <line id="9" form="11" width="2">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="1" alpha="1"/>
+        <end x="0.248158" y="0.197612" z="0"/>
+        <position x="-0.18288" y="0" z="0"/>
+    </line>
+    <text id="8" form="18" size="35">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="0" alpha="1"/>
+        <name>(48,5)</name>
+        <end x="0" y="0" z="0"/>
+        <position x="1.2192" y="0.127" z="0.0127"/>
+    </text>
+    <text id="7" form="18" size="35">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="0" alpha="1"/>
+        <name>(36,10)</name>
+        <end x="0" y="0" z="0"/>
+        <position x="0.914402" y="0.254001" z="0.0127"/>
+    </text>
+    <text id="6" form="18" size="35">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="0" alpha="1"/>
+        <name>(24,30)</name>
+        <end x="0" y="0" z="0"/>
+        <position x="0.609601" y="0.762002" z="0.0127"/>
+    </text>
+    <text id="5" form="18" size="35">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="0" alpha="1"/>
+        <name>(12,5.5)</name>
+        <end x="0" y="0" z="0"/>
+        <position x="0.304801" y="0.1397" z="0.0127"/>
+    </text>
+    <dot id="4" form="8" radius="5">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="1" g="0" b="0" alpha="1"/>
+        <end x="0" y="0" z="0"/>
+        <position x="0" y="0" z="0"/>
+    </dot>
+    <dot id="3" form="8" radius="5">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="1" b="0" alpha="1"/>
+        <end x="0" y="0" z="0"/>
+        <position x="0.304801" y="0.1397" z="0"/>
+    </dot>
+    <dot id="2" form="8" radius="5">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="0" b="1" alpha="1"/>
+        <end x="0" y="0" z="0"/>
+        <position x="0.609601" y="0.762002" z="0"/>
+    </dot>
+    <dot id="1" form="8" radius="5">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0.501961" g="0" b="0.501961" alpha="1"/>
+        <end x="0" y="0" z="0"/>
+        <position x="0.914402" y="0.254001" z="0"/>
+    </dot>
+    <dot id="0" form="8" radius="5">
+        <fill r="1" g="1" b="1" alpha="0"/>
+        <color r="0" g="1" b="1" alpha="1"/>
+        <end x="0" y="0" z="0"/>
+        <position x="1.2192" y="0.127" z="0"/>
+    </dot>
+    <grid tics="1" hash="12" minx="-48" maxx="48" miny="-48" maxy="48" enabled="1"/>
+    <trace>1</trace>
+</graphics>
+
+<ground/>
+
+<sim>
+    <nxt form="5" id="0">
+        <wheels left="2" right="2" caster="0"/>
+        <name></name>
+        <led r="0" g="1" b="0" alpha="1"/>
+        <joint w1="0" w2="0"/>
+        <rotation x="0" y="0" z="0" w="1"/>
+        <position x="0" y="0" z="0"/>
+    </nxt>
+</sim>
