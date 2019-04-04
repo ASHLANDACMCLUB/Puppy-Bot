@@ -1,7 +1,7 @@
 #include <mindstorms.h>
 CMindstorms robot;
 
-robot.setSpeed(speed, radius);
+robot.setSpeed(100, 1.1);
 
 robot.playMelody(MarioTheme, 1);
 /* drive forward by rolling two wheels for 360 degrees */
